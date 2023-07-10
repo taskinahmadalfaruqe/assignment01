@@ -12,15 +12,22 @@ body {
     font-size: 20px;
 }
 
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+    /* background-color: red; */
+}
+
 h1, h2, h3, h4, button{
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0;
-    /* background-color: red; */
+h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
 }
 
 a,
@@ -176,6 +183,7 @@ header .container #banner .image img{}
 }
 #hot_deal .container .hot_text p{
     margin-bottom: 50px;
+    color: #181818;
 }
 #hot_deal .container .hot_image{
     padding: 100px 0;
@@ -187,10 +195,35 @@ header .container #banner .image img{}
 
 
 /* =====================================
-            HEADER PART START
+            INSTAGRAM PART START
 ======================================== */
+#instagram{
+    margin-bottom: 130px;
+}
+#instagram .container{
+    padding:0 20px ;
+}
+#instagram .container .insta_heading{
+    text-align: center;
+    margin-bottom: 50PX;
+}
+#instagram .container .insta_heading p{
+    color: #181818;
+    line-height: 30px;
+    width: 595px;
+    margin: 0 auto;
+}
+#instagram .container .insta_items{
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+}
+#instagram .container .insta_items .item{
+    max-width: 340px;
+    height: 395px;
+}
 /* =====================================
-            HEADER PART END
+            INSTAGRAM PART END
 ======================================== */
 
 
