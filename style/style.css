@@ -121,7 +121,7 @@ nav .container .logo{
     font-size: 40px;
     color: #fff;
     font-weight: 800;
-    letter-spacing: .5px;
+    font-family: 'Roboto', sans-serif;
 }
 nav .container .logo p{
     color: #181818;
