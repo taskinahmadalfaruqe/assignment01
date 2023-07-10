@@ -10,6 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif; 
     background-color: #fff;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -108,7 +109,49 @@ button:hover a{
 header{
     background: rgba(229, 84, 115, 0.20);
 }
-header .container{}
+
+/* NAVBAR PART START  */
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+nav .container .logo{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+nav .container .logo p{
+    color: #181818;
+    letter-spacing: .5px;
+}
+nav .container .logo p span{
+    color: #E55473;
+}
+nav .container .title ul{
+    display: flex;
+    gap: 50px;
+}
+nav .container .title ul li a{
+    color: #E55473;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+nav .container .title ul li:hover a{
+    color: #111010;
+}
+/* NAVBAR PART END  */
+
+
+/* BANNER PART START  */
 header .container #banner{
     display: flex;
     gap: 90px;
@@ -129,7 +172,6 @@ header .container #banner .text p{
     line-height: 30px;
     margin: 35px 0;
 }
-header .container #banner .text button{}
 header .container #banner .text button a{
     font-size: 30px;
     
@@ -137,7 +179,7 @@ header .container #banner .text button a{
 header .container #banner .image{
     padding-top: 50px;
 }
-header .container #banner .image img{}
+/* BANNER PART END  */
 
 /* =====================================
             HEADER PART END
@@ -368,10 +410,37 @@ header .container #banner .image img{}
 
 
 /* =====================================
-            HEADER PART START
+            FOOTER PART START
 ======================================== */
+footer{
+    background-color: #111010;
+}
+footer .container{
+    text-align: center;
+}
+footer .container .footer_text{
+    padding: 130px 0;
+    color: #fff;
+    width: 625px;
+    margin: 0 auto;
+}
+footer .container .footer_text h2{
+    color: #E55473;
+    font-weight: 800;
+    font-size: 50px;
+}
+footer .container .footer_text h2 span{
+    color: #fff;
+}
+footer .container .footer_text p{
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 35px;
+}
+footer .container .footer_text .copyright{
+    color: rgba(255, 255, 255, 0.40);
+}
 /* =====================================
-            HEADER PART END
+            FOOTER PART END
 ======================================== */
 
 /* MAIN CSS PART END  */
