@@ -1,0 +1,58 @@
+/* ALL COMMON CSS PART START  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    font-family: var(--OPEN_SAN);
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: red;
+}
+
+a,
+li,
+ol,
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button:focus,
+input:focus,
+select:focus {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* ALL COMMON CSS PART END */
+
+/* HEADER PART START */
+
+/* BANNER PART END  */
+
+/* HEADER PART END */
