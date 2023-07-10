@@ -9,6 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif; 
     background-color: #fff;
+    font-size: 20px;
 }
 
 h1, h2, h3, h4, button{
@@ -68,7 +69,7 @@ button a{
     background-color: #E55473;
     color: #fff;
     padding: 10px 30px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 7px;
@@ -138,10 +139,49 @@ header .container #banner .image img{}
 
 
 /* =====================================
-            HEADER PART START
+           HOT DEAL PART START
 ======================================== */
+
 /* =====================================
-            HEADER PART END
+           HOT DEAL PART END
+======================================== */
+
+
+
+/* =====================================
+           HOT DEAL PART START
+======================================== */
+#hot_deal{
+    background: rgba(229, 84, 115, 0.20);
+    margin: 130px auto;
+}
+#hot_deal .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+#hot_deal .container .hot_text{
+    width: 600px;
+    text-align: center;
+}
+#hot_deal .container .hot_text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+#hot_deal .container .hot_text h2 span{
+    color: #E55473;
+}
+#hot_deal .container .hot_text p{
+    margin-bottom: 50px;
+}
+#hot_deal .container .hot_image{
+    padding: 100px 0;
+}
+/* =====================================
+           HOT DEAL PART END
 ======================================== */
 
 
