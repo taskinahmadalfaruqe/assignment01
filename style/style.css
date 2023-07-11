@@ -124,6 +124,12 @@ nav .container .logo{
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
 }
+nav .container .title{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
 nav .container .logo p{
     color: #181818;
     letter-spacing: .5px;
@@ -148,6 +154,24 @@ nav .container .title ul li a{
 }
 nav .container .title ul li:hover a{
     color: #111010;
+}
+nav .container .title .cart{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #E55473;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+nav .container .title .cart i{
+    color: #E55473;
+    font-size: 30px;
 }
 /* NAVBAR PART END  */
 
