@@ -17,6 +17,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0;
+    padding: 0 20px ;
     /* background-color: red; */
 }
 
@@ -207,11 +208,11 @@ header .container #banner .image{
 }
 #featured .container .featured_items{
     display: flex;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 15px;
+    justify-content: space-around;
 }
 #featured .container .featured_items .item{
-    width: 464px;
+    width: 460px;
 }
 #featured .container .featured_items .item .image{
     width: 460px;
@@ -258,11 +259,41 @@ header .container #banner .image{
 
 
 /* =====================================
-           FEATURED PART START
+           DELIVERY PART START
 ======================================== */
-
+#delivery .container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 90px 165px;
+}
+#delivery .container .delivery_items{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+#delivery .container .delivery_items .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#delivery .container .delivery_items .item .deli_image{
+    height: 90px;
+    width: 90px;
+}
+#delivery .container .delivery_items .item .deli_caption{
+    margin-top: 25px;
+    color: rgba(39, 39, 39, 0.80);
+    color: #272727;
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
 /* =====================================
-           FEATURED PART END
+           DELIVERY PART END
 ======================================== */
 
 
