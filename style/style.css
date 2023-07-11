@@ -209,13 +209,13 @@ header .container #banner .image{
 #featured .container .featured_items{
     display: flex;
     gap: 15px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #featured .container .featured_items .item{
-    width: 460px;
+    width: 440px;
 }
 #featured .container .featured_items .item .image{
-    width: 460px;
+    width: 440px;
     height: 535px;
     display: flex;
     align-items: end;
@@ -250,6 +250,14 @@ header .container #banner .image{
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 35px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#featured .container .featured_items .item .text p a:hover{
+    color: #E55473;
 }
 /* =====================================
            FEATURED PART END
@@ -343,6 +351,82 @@ header .container #banner .image{
 }
 /* =====================================
            HOT DEAL PART END
+======================================== */
+
+
+
+/* =====================================
+            TODAY'S STOCKED PART START
+======================================== */
+#todays_stocked{
+    margin-bottom: 130px;
+}
+#todays_stocked .container{
+    padding:  0 20px;
+    text-align: center;
+}
+#todays_stocked .container .heading{
+    margin-bottom: 25px;
+}
+#todays_stocked .container .heading p{
+    font-size: 25px;
+    color: #181818;
+    margin:30px 0 50px;
+}
+#todays_stocked .container .heading p a{
+    color: #E55473;
+    font-weight: 700;
+    font-size: 30px;
+}
+#todays_stocked .container .items{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#todays_stocked .container .items .item{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    border: 2px solid #E55473;
+    background: rgba(229, 84, 115, 0.1);
+    padding: 15px 15px 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#todays_stocked .container .items .item .image{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#todays_stocked .container .items .item .image img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#todays_stocked .container .items .item .text h3{
+    font-size: 25px;
+    margin: 25px 0 15px;
+}
+#todays_stocked .container .items .item .text p{
+    margin-bottom: 20px;
+}
+#todays_stocked .container .items .item .text button a{
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* =====================================
+            TODAY'S STOCKED PART END
 ======================================== */
 
 
@@ -463,16 +547,6 @@ header .container #banner .image{
 /* =====================================
             GET PART END
 ======================================== */
-
-
-
-/* =====================================
-            HEADER PART START
-======================================== */
-/* =====================================
-            HEADER PART END
-======================================== */
-
 
 
 
