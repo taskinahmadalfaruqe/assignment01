@@ -1,0 +1,420 @@
+/* Mobile Device */
+
+@media (max-width: 575.98px) {
+
+/* HEADER PART START  */
+
+/* ======================================
+            NAV BAR PART START 
+====================================== */
+nav .container{
+    width: 100%;
+    padding: 07px 05px;
+    justify-content: space-between;
+}
+nav .container .logo{
+    display: flex;
+    justify-content:start;
+    align-items:center;
+}
+nav .container .logo a{
+    width: 100px;
+    padding: 0;
+}
+nav .container .logo a p{
+    font-size: 20px;
+}
+nav .container .title{
+    gap: 10px;
+    position: relative;
+}
+nav .container .title ul{
+    opacity: 0;
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    background: rgba(229, 84, 115, 0.10);
+    z-index: 111;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+nav .container .title ul.active{
+    opacity: 1;
+
+}
+nav .container .title ul li a{
+    font-size: 1rem;
+}
+nav .container .title .cart, .bar{
+    display: flex !important;
+    width: 35px;
+    height: 35px;
+
+}
+nav .container .title .cart , .bar i{
+    font-size: 17px;
+}
+/* ======================================
+            NAV BAR PART END 
+====================================== */
+
+
+
+/* ======================================
+            BANNER PART START 
+====================================== */
+/* ======================================
+            BANNER PART END 
+====================================== */
+
+ /* HEADER PART START  */
+
+
+
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+}
+
+
+
+
+/* Tablet Device */
+
+@media (min-width:576px) and (max-width:768.98px){
+
+/* HEADER PART START  */
+
+/* ======================================
+            NAV BAR PART START 
+====================================== */
+nav .container{
+    width: 100%;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+nav .container .logo{
+    display: flex;
+    justify-content:start;
+    align-items:center;
+}
+
+nav .container .logo a p{
+    font-size: 22px;
+}
+nav .container .title{
+    gap: 15px;
+    position: relative;
+}
+nav .container .title ul{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    background: rgba(229, 84, 115, 0.10);
+    z-index: 111;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+nav .container .title ul.active{
+    opacity: 1;
+    visibility: visible;
+}
+nav .container .title ul li a{
+    font-size: 1.2rem;
+}
+nav .container .title .cart, .bar{
+    display: flex !important;
+    width: 35px;
+    height: 35px;
+}
+nav .container .title .cart , .bar i{
+    font-size: 17px;
+}
+/* ======================================
+            NAV BAR PART END 
+====================================== */
+
+
+
+/* ======================================
+            BANNER PART START 
+====================================== */
+/* ======================================
+            BANNER PART END 
+====================================== */
+
+ /* HEADER PART START  */
+    
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+}
+
+
+
+
+/* Large Tablet Device */
+
+@media (min-width:769px) and (max-width:991.98px){
+
+/* HEADER PART START  */
+
+/* ======================================
+            NAV BAR PART START 
+====================================== */
+nav .container{
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+}
+nav .container .logo{
+    display: flex;
+    justify-content:start;
+    align-items:center;
+}
+nav .container .logo a p{
+    font-size: 30px;
+}
+nav .container .title{
+    gap: 20px;
+    position: relative;
+}
+nav .container .title ul{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    background: rgba(229, 84, 115, 0.10);
+    z-index: 111;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+nav .container .title ul.active{
+    opacity: 1;
+    visibility: visible;
+}
+nav .container .title ul li a{
+    font-size: 1.2rem;
+}
+nav .container .title .cart, .bar{
+    display: flex !important;
+    width: 40px;
+    height: 40px;
+}
+nav .container .title .cart , .bar i{
+    font-size: 20px;
+}
+/* ======================================
+            NAV BAR PART END 
+====================================== */
+
+
+
+/* ======================================
+            BANNER PART START 
+====================================== */
+/* ======================================
+            BANNER PART END 
+====================================== */
+
+ /* HEADER PART START  */
+
+
+
+
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+}
+
+
+
+/* Mini Laptop Device */
+
+@media (min-width:992px) and (max-width:1199.98px){
+
+    
+/* HEADER PART START  */
+
+/* ======================================
+            NAV BAR PART START 
+====================================== */
+nav .container{
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+}
+nav .container .logo{
+    display: flex;
+    justify-content:start;
+    align-items:center;
+}
+nav .container .logo a p{
+    font-size: 30px;
+}
+nav .container .title{
+    gap: 50px;
+}
+nav .container .title ul{
+    gap: 40px;
+}
+nav .container .title ul li a{
+    font-size: 1.3rem;
+}
+nav .container .title .cart, .bar{
+    width: 45px;
+    height: 45px;
+}
+nav .container .title .cart , .bar i{
+    font-size: 22px;
+}
+/* ======================================
+            NAV BAR PART END 
+====================================== */
+
+
+
+/* ======================================
+            BANNER PART START 
+====================================== */
+/* ======================================
+            BANNER PART END 
+====================================== */
+
+ /* HEADER PART START  */
+
+
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+}
+
+
+
+/* Medium Laptop Device */
+
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+/* HEADER PART START  */
+
+/* ======================================
+            NAV BAR PART START 
+====================================== */
+nav .container .logo a p{
+    font-size: 35px;
+}
+nav .container .title ul{
+    gap: 40px;
+}
+nav .container .title ul li a{
+    font-size: 1.4rem;
+}
+nav .container .title .cart , .bar i{
+    font-size: 25px;
+}
+/* ======================================
+            NAV BAR PART END 
+====================================== */
+
+
+
+/* ======================================
+            BANNER PART START 
+====================================== */
+/* ======================================
+            BANNER PART END 
+====================================== */
+
+ /* HEADER PART START  */
+
+/* ======================================
+            NAV NAR PART START 
+====================================== */
+/* ======================================
+            NAV NAR PART END 
+====================================== */
+}
