@@ -2,6 +2,27 @@
 
 @media (max-width: 575.98px) {
 
+/* BUTTON  */
+button{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+button a{
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px  !important;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
 /* HEADER PART START  */
 
 /* ======================================
@@ -9,7 +30,7 @@
 ====================================== */
 nav .container{
     width: 100%;
-    padding: 07px 05px;
+    padding: 07px 00px;
     justify-content: space-between;
 }
 nav .container .logo{
@@ -30,6 +51,7 @@ nav .container .title{
 }
 nav .container .title ul{
     opacity: 0;
+    visibility: hidden;
     position: absolute;
     top: 42px;
     right: 0px;
@@ -41,13 +63,14 @@ nav .container .title ul{
     align-items: center;
     gap: 20px;
     padding-top: 20px;
-    background: rgba(229, 84, 115, 0.10);
-    z-index: 111;
-    border-radius: 0px 0px 10px 10px;
-    -webkit-border-radius: 0px 0px 10px 10px;
-    -moz-border-radius: 0px 0px 10px 10px;
-    -ms-border-radius: 0px 0px 10px 10px;
-    -o-border-radius: 0px 0px 10px 10px;
+    background: #eee;
+    /*background-color: #fff;
+    */z-index: 111;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -56,6 +79,8 @@ nav .container .title ul{
 }
 nav .container .title ul.active{
     opacity: 1;
+    visibility: visible;
+    z-index: 111;
 
 }
 nav .container .title ul li a{
@@ -79,6 +104,39 @@ nav .container .title .cart , .bar i{
 /* ======================================
             BANNER PART START 
 ====================================== */
+header .container{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0;
+}
+header .container #banner{
+    gap: 20px;
+    flex-direction: column;
+}
+header .container #banner .text{
+    width: 100%;
+    text-align: center;
+}
+header .container #banner .text h1{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+header .container #banner .text p{
+    font-size: .75rem;
+    line-height: 1rem;
+    margin: 15px 0;
+}
+header .container #banner .image{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container #banner .image img{
+    width: 65%;
+}
+
 /* ======================================
             BANNER PART END 
 ====================================== */
@@ -123,6 +181,27 @@ nav .container .title .cart , .bar i{
 
 @media (min-width:576px) and (max-width:768.98px){
 
+
+/* BUTTON  */
+button{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+button a{
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px  !important;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 /* HEADER PART START  */
 
 /* ======================================
@@ -138,9 +217,8 @@ nav .container .logo{
     justify-content:start;
     align-items:center;
 }
-
 nav .container .logo a p{
-    font-size: 22px;
+    font-size: 25px;
 }
 nav .container .title{
     gap: 15px;
@@ -160,7 +238,7 @@ nav .container .title ul{
     align-items: center;
     gap: 20px;
     padding-top: 30px;
-    background: rgba(229, 84, 115, 0.10);
+    background: #eee;
     z-index: 111;
     border-radius: 0px 0px 10px 10px;
     -webkit-border-radius: 0px 0px 10px 10px;
@@ -197,6 +275,38 @@ nav .container .title .cart , .bar i{
 /* ======================================
             BANNER PART START 
 ====================================== */
+header .container{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0;
+}
+header .container #banner{
+    gap: 20px;
+    flex-direction: column;
+}
+header .container #banner .text{
+    width: 85%;
+    text-align: center;
+}
+header .container #banner .text h1{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+header .container #banner .text p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 15px 0;
+}
+header .container #banner .image{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container #banner .image img{
+    width: 65%;
+}
 /* ======================================
             BANNER PART END 
 ====================================== */
@@ -217,6 +327,26 @@ nav .container .title .cart , .bar i{
 /* Large Tablet Device */
 
 @media (min-width:769px) and (max-width:991.98px){
+
+/* BUTTON  */
+button{
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+button a{
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 22px  !important;
+    font-weight: 600;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
 
 /* HEADER PART START  */
 
@@ -291,6 +421,38 @@ nav .container .title .cart , .bar i{
 /* ======================================
             BANNER PART START 
 ====================================== */
+header .container{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0;
+}
+header .container #banner{
+    gap: 30px;
+    flex-direction: column;
+}
+header .container #banner .text{
+    width: 70%;
+    text-align: center;
+}
+header .container #banner .text h1{
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+header .container #banner .text p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 20px 0;
+}
+header .container #banner .image{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container #banner .image img{
+    width: 65%;
+}
 /* ======================================
             BANNER PART END 
 ====================================== */
@@ -314,6 +476,25 @@ nav .container .title .cart , .bar i{
 
 @media (min-width:992px) and (max-width:1199.98px){
 
+/* BUTTON  */
+button{
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+button a{
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 22px  !important;
+    font-weight: 600;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
     
 /* HEADER PART START  */
 
@@ -353,11 +534,31 @@ nav .container .title .cart , .bar i{
             NAV BAR PART END 
 ====================================== */
 
-
-
 /* ======================================
             BANNER PART START 
 ====================================== */
+header .container{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0;
+}
+header .container #banner{
+    gap: 30px;
+}
+header .container #banner .text{
+    width: 70%;
+    text-align: center;
+}
+header .container #banner .text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+header .container #banner .text p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 25px 0;
+}
+
 /* ======================================
             BANNER PART END 
 ====================================== */
@@ -405,11 +606,32 @@ nav .container .title .cart , .bar i{
 /* ======================================
             BANNER PART START 
 ====================================== */
+header .container{
+    width: 100%;
+}
+header .container #banner{
+    gap: 10px;
+}
+header .container #banner .text{
+    width: 80%;
+    text-align: start;
+}
+header .container #banner .text h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+header .container #banner .text p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin: 35px 0;
+}
 /* ======================================
             BANNER PART END 
 ====================================== */
 
  /* HEADER PART START  */
+
+
 
 /* ======================================
             NAV NAR PART START 
